@@ -1,0 +1,1 @@
+nrfjprog -f NRF52   --memwr 0x10001208 --val 0xFFFFFF00

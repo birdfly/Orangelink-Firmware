@@ -1,0 +1,1 @@
+nrfutil.exe keys generate private.pem

@@ -1,0 +1,1 @@
+nrfjprog -f NRF52 --eraseall

@@ -1,0 +1,1 @@
+copy .\output\boot.hex ..\..\..\update

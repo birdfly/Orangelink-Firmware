@@ -1,0 +1,11 @@
+.\output\main.o: ..\src\main.c
+.\output\main.o: ..\inc\app_ble.h
+.\output\main.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\main.o: ..\inc\app_battery.h
+.\output\main.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\output\main.o: ..\inc\app_aps.h
+.\output\main.o: ..\inc\app_indication.h
+.\output\main.o: ..\inc\app_sys.h
+.\output\main.o: ..\inc\app_subg.h
+.\output\main.o: ..\inc\app_factory.h
+.\output\main.o: ..\inc\app_config.h

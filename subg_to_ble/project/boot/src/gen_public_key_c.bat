@@ -1,0 +1,1 @@
+nrfutil.exe keys display --key pk --format code private.pem --out_file public_key.c

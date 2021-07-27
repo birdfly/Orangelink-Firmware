@@ -1,0 +1,23 @@
+---- app_error_handler Matches (22 in 10 files) ----
+App_ble.c (project\app\src):    app_error_handler(DEAD_BEEF, line_num, p_file_name);
+App_ble.c (project\app\src):    APP_ERROR_HANDLER(nrf_error);
+App_ble.c (project\app\src):    APP_ERROR_HANDLER(nrf_error);
+App_error.h (nrfsdk\components\libraries\util):/**@brief Defines required by app_error_handler assembler intructions.
+App_error.h (nrfsdk\components\libraries\util):void app_error_handler(uint32_t error_code, uint32_t line_num, const uint8_t * p_file_name);
+App_error.h (nrfsdk\components\libraries\util):#define APP_ERROR_HANDLER(ERR_CODE)                                    \
+App_error.h (nrfsdk\components\libraries\util):        app_error_handler((ERR_CODE), __LINE__, (uint8_t*) __FILE__);  \
+App_error.h (nrfsdk\components\libraries\util):#define APP_ERROR_HANDLER(ERR_CODE)                                    \
+App_error.h (nrfsdk\components\libraries\util):            APP_ERROR_HANDLER(LOCAL_ERR_CODE);              \
+App_error.h (nrfsdk\components\libraries\util):            APP_ERROR_HANDLER(0);                             \
+App_error_handler_gcc.c (nrfsdk\components\libraries\util):void app_error_handler(ret_code_t error_code, uint32_t line_num, const uint8_t * p_file_name) __attribute__(( naked ));
+App_error_handler_gcc.c (nrfsdk\components\libraries\util):void app_error_handler(ret_code_t error_code, uint32_t line_num, const uint8_t * p_file_name)
+App_error_handler_gcc.c (nrfsdk\components\libraries\util):void app_error_handler(ret_code_t error_code, uint32_t line_num, const uint8_t * p_file_name)
+App_error_handler_iar.c (nrfsdk\components\libraries\util):void app_error_handler(ret_code_t error_code, uint32_t line_num, const uint8_t * p_file_name)
+App_error_handler_iar.c (nrfsdk\components\libraries\util):void app_error_handler(ret_code_t error_code, uint32_t line_num, const uint8_t * p_file_name)
+App_error_handler_keil.c (nrfsdk\components\libraries\util):__ASM void app_error_handler(ret_code_t error_code, uint32_t line_num, const uint8_t * p_file_name)
+App_error_handler_keil.c (nrfsdk\components\libraries\util):void app_error_handler(ret_code_t error_code, uint32_t line_num, const uint8_t * p_file_name)
+Ble_conn_state.c (nrfsdk\components\ble\common):                APP_ERROR_HANDLER(NRF_ERROR_NO_MEM);
+Main.c (project\boot\src):void app_error_handler(uint32_t error_code, uint32_t line_num, const uint8_t * p_file_name)
+Nrf_dfu_ble.c (nrfsdk\components\libraries\bootloader\ble_dfu):        APP_ERROR_HANDLER(NRF_ERROR_INTERNAL);
+Nrf_sdh_ble.c (nrfsdk\components\softdevice\common):        APP_ERROR_HANDLER(ret_code);
+Nrf_sdh_soc.c (nrfsdk\components\softdevice\common):        APP_ERROR_HANDLER(ret_code);

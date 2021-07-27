@@ -1,0 +1,1 @@
+copy .\output\app.hex ..\..\..\update
